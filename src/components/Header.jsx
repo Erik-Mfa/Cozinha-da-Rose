@@ -4,10 +4,14 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white/95 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 shadow-md">
+    <header className="bg-pink-100/95 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a className="text-3xl font-bold font-dancing text-pink-500" href="#">
-          Cozinha da Rose
+        <a href="#">
+          <img 
+            src="/images/logo.png" 
+            alt="Cozinha da Rose Logo" 
+            className="h-12 w-auto"
+          />
         </a>
         <nav className="hidden md:flex space-x-8">
           <a className="text-gray-700 hover:text-pink-500 transition-colors" href="#menu">
@@ -43,7 +47,7 @@ const Header = () => {
       
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white/95 backdrop-blur-sm shadow-lg">
+        <div className="md:hidden bg-pink-100/95 backdrop-blur-sm shadow-lg">
           <nav className="container mx-auto px-6 py-4 flex flex-col space-y-4">
             <a 
               className="text-gray-700 hover:text-pink-500 transition-colors" 
