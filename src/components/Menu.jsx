@@ -3,28 +3,28 @@ import React from 'react';
 const Menu = () => {
   const mainPlates = [
     {
-      name: "Feijoada Completa",
-      description: "The national dish of Brazil, a hearty black bean stew with various cuts of pork and beef."
+      name: "Calabresa",
+      description: "Traditional Brazilian sausage plate served with rice, beans, farofa, and salad."
     },
     {
-      name: "Picanha na Chapa",
-      description: "Grilled top sirloin cap, a prized Brazilian cut, served with farofa and vinaigrette."
-    },
-    {
-      name: "Moqueca de Peixe",
-      description: "A delicious fish stew with coconut milk, tomatoes, onions, and dendê oil."
+      name: "Pastel",
+      description: "Crispy fried pastry filled with your choice of cheese, meat, or heart of palm."
     },
     {
       name: "Frango a Passarinho",
       description: "Crispy fried chicken pieces marinated in garlic and lime."
     },
     {
-      name: "Bobó de Camarão",
-      description: "A creamy shrimp stew made with manioc purée, coconut milk, and spices."
+      name: "Tilápia Grelhada",
+      description: "Grilled tilapia fish seasoned with Brazilian herbs and served with rice and vegetables."
     },
     {
-      name: "Vaca Atolada",
-      description: "'Cow stuck in the mud', a rich beef rib and manioc casserole."
+      name: "Coxinha",
+      description: "Brazilian chicken croquette with a crispy exterior and creamy chicken filling."
+    },
+    {
+      name: "Feijoada Completa",
+      description: "The national dish of Brazil, a hearty black bean stew with various cuts of pork and beef."
     }
   ];
 
@@ -149,3 +149,4 @@ const Menu = () => {
 };
 
 export default Menu;
+
