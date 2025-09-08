@@ -4,9 +4,13 @@ const Footer = () => {
   return (
     <footer className="bg-gray-100 text-gray-900 py-12" id="contact">
       <div className="container mx-auto px-6 text-center">
-        <h3 className="text-3xl font-bold font-dancing text-pink-500 mb-2">
-          Cozinha da Rose
-        </h3>
+        <div className="flex justify-center mb-4">
+          <img 
+            src="/images/logo.png" 
+            alt="Cozinha da Rose Logo" 
+            className="h-16 w-auto"
+          />
+        </div>
         <p className="mb-4">
           Come visit us for an unforgettable Brazilian experience.
         </p>
@@ -15,7 +19,7 @@ const Footer = () => {
             <span className="font-bold">Phone:</span> 856.562.0858
           </p>
           <p>
-            <span className="font-bold">Address:</span> 123 Tropical Lane, Flavor Town, USA
+            <span className="font-bold">Address:</span> 17 S Pavilion Ave, Riverside, NJ 08075
           </p>
         </div>
         <div className="flex justify-center space-x-6">
@@ -38,7 +42,7 @@ const Footer = () => {
           {/* GitHub */}
           <a 
             className="text-gray-600 hover:text-pink-500 transition-colors" 
-            href="#"
+            href="https://github.com/Erik-Mfa/Cozinha-da-Rose"
             aria-label="GitHub"
           >
             <svg 
@@ -68,7 +72,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="text-gray-600 mt-8 text-sm">
-          © 2024 Cozinha da Rose. All Rights Reserved.
+          © 2025 Cozinha da Rose. All Rights Reserved.
         </p>
       </div>
     </footer>
