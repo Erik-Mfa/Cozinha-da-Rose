@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cozinha-da-Rose/static/css/main.1633b6f2.css",
+    "main.js": "/Cozinha-da-Rose/static/js/main.e9c4555c.js",
+    "index.html": "/Cozinha-da-Rose/index.html",
+    "main.1633b6f2.css.map": "/Cozinha-da-Rose/static/css/main.1633b6f2.css.map",
+    "main.e9c4555c.js.map": "/Cozinha-da-Rose/static/js/main.e9c4555c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1633b6f2.css",
+    "static/js/main.e9c4555c.js"
+  ]
+}
