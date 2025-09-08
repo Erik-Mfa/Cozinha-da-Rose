@@ -11,7 +11,7 @@ const Header = () => {
           className="focus:outline-none focus:ring-2 focus:ring-pink-500 rounded"
         >
           <img 
-            src="/images/logo.png" 
+            src={`${process.env.PUBLIC_URL}/images/logo.png`}
             alt="Cozinha da Rose Logo" 
             className="h-12 w-auto"
           />

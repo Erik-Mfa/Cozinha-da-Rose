@@ -9,7 +9,7 @@ const About = () => {
             <img 
               alt="Cozinha da Rose restaurant interior" 
               className="rounded-lg shadow-2xl" 
-              src="/images/cozinha.png"
+              src={`${process.env.PUBLIC_URL}/images/cozinha.png`}
             />
           </div>
           <div className="md:w-1/2">

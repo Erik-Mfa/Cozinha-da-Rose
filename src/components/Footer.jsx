@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 text-center">
         <div className="flex justify-center mb-4">
           <img 
-            src="/images/logo.png" 
+            src={`${process.env.PUBLIC_URL}/images/logo.png`}
             alt="Cozinha da Rose Logo" 
             className="h-16 w-auto"
           />
