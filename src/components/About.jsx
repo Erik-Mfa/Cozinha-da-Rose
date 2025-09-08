@@ -7,9 +7,9 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
             <img 
-              alt="Interior of a cozy restaurant with floral decorations" 
+              alt="Cozinha da Rose restaurant interior" 
               className="rounded-lg shadow-2xl" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqLt03_b-8DvrwfE7l9j9thiF_EQR1FjeM_DLrXaZvIuNMtc0Nt5bjj3cgOS2C6XSEdi9cRwafGtd_pAW8WPW39F8T9goTBqQ4BkUOPGBySWDald8ubORCl_8_jv0o9KrG4hYG6fUOYBoTBvI4biwLGUg3SY_IL1U2epjRWQ1ReHPCCGmqN9MkeXzqOaZPsmzO0mU_pz1AP-JKKI21F-_8LvCDC4l5JPefyOP4MwoAIZUDff0WKh_Prpr6nGxM8NV2BKYuvw8dXzA"
+              src="/images/cozinha.png"
             />
           </div>
           <div className="md:w-1/2">
