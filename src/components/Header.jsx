@@ -6,13 +6,16 @@ const Header = () => {
   return (
     <header className="bg-pink-100/95 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#">
+        <button 
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          className="focus:outline-none focus:ring-2 focus:ring-pink-500 rounded"
+        >
           <img 
             src="/images/logo.png" 
             alt="Cozinha da Rose Logo" 
             className="h-12 w-auto"
           />
-        </a>
+        </button>
         <nav className="hidden md:flex space-x-8">
           <a className="text-gray-700 hover:text-pink-500 transition-colors" href="#menu">
             Menu
